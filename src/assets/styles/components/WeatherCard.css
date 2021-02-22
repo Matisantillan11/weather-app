@@ -1,0 +1,77 @@
+.weatherCard{
+    width: 30%;
+    height: 80%;
+    background-image: linear-gradient(to bottom, #0e20c0b0, #AB6BC9);
+    margin: 5%;
+    border-radius: 12px;
+    color: #fbfbfb;
+}
+
+.nav{
+    padding: 10px 40px;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.burger{
+    width: 35px;
+    height: 3px;
+    margin: 10% 0;
+}
+
+.infoContainer{
+    text-align: center;
+}
+
+.current_city{
+    font-size: 35px;
+}
+.weatherCard_hero{
+    padding: 0px 40px;
+}
+
+.weatherState_container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 2.5%;
+}
+
+.weatherState{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.weatherTemps_container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.current-temperature{
+    font-size:120px;
+}
+.temperature_range{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.max-temperature {
+    font-size: 25px;
+}
+
+.min-temperature{
+    font-size: 25px;
+}
