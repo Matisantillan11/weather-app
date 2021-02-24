@@ -1,8 +1,8 @@
 .weatherCard{
-    width: 30%;
-    height: 80%;
+    width: 35%;
+    height: 90%;
     background-image: linear-gradient(to bottom, #0e20c0b0, #AB6BC9);
-    margin: 5%;
+    margin:2.5% 5%;
     border-radius: 12px;
     color: #fbfbfb;
 }
@@ -27,10 +27,36 @@
     width: 35px;
     height: 3px;
     margin: 10% 0;
+    background-color: #fbfbfb;
+
 }
 
 .infoContainer{
     text-align: center;
+}
+
+.plus_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.plus{
+    width: 35px;
+    height: 3px;
+    margin: 10% 0;
+    background-color: #fbfbfb;
+}
+.plus_container .plus:first-child{
+    position:absolute;
+    margin-top: 10%;
+}
+
+.plus_container .plus:last-child{
+    transform:rotate(90deg);
+    width: 30px;
 }
 
 .current_city{
@@ -51,17 +77,26 @@
 .weatherState{
     font-size: 60px;
     font-weight: 400;
+    
 }
 
+.weatherState_img{
+    width: 40%;
+    height: 40%;
+    margin:-5% .5% ;
+    
+}
 .weatherTemps_container{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
 }
+
 
 .current-temperature{
     font-size:120px;
+    margin: 0 10% 0 10%;
 }
 .temperature_range{
     display:flex;
